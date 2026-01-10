@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VanillaLog - socials</title>
+    <link rel="stylesheet" href="style2.css" />
+    <script src="https://iframe.chat/scripts/main.min.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th id="row">
+          <a href="index.html">
+            <img class="logo" src="/Pictures/thevanillalog3.png" alt="" />
+          </a>
+        </th>
+      </tr>
+      <tr>
+        <th id="webpage_button_section">
+          <div id="links">
+            <a href="/new_art.html"
+              ><button class="webpage_buttons">
+                <img
+                  class="button_images"
+                  src="/Pictures/art.png"
+                  alt=""
+                /></button
+            ></a>
+            <a href="/music.html"
+              ><button class="webpage_buttons">
+                <img
+                  class="button_images"
+                  src="/Pictures/music.png"
+                  alt=""
+                /></button
+            ></a>
+            <a href="/blog.html"
+              ><button class="webpage_buttons">
+                <img
+                  class="button_images"
+                  src="/Pictures/blog.png"
+                  alt=""
+                /></button
+            ></a>
+            <a href="/socials.html"
+              ><button class="webpage_buttons">
+                <img
+                  class="button_images"
+                  src="/Pictures/coding.png"
+                  alt=""
+                /></button
+            ></a>
+          </div>
+        </th>
+      </tr>
+    </table>
+    <div id="links">
+      <iframe
+        src="https://iframe.chat/embed?chat=TheVanillaLog"
+        id="chattable"
+      ></iframe>
+      <div class="container">
+        <h1>Random Number Guessing Game</h1>
+        <p>
+          This game randomly creates a range of numbers every time you reload
+          the page!
+        </p>
+        <label id="number_guessing_label" for=""></label>
+        <input type="text" id="number_guessing_answer" />
+        <p id="number_guessing_comment"></p>
+        <button id="number_guessing_button">GUESS!</button>
+      </div>
+      <div class="container">
+        <h1>GuestBook</h1>
+        <form id="guestForm">
+          <div class="form-input">
+            <label for="nickname">Nickname:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-input">
+            <label for="response">response:</label>
+            <input type="text" id="address" name="address" required />
+          </div>
+          <div class="btn"><button type="submit">Comment</button></div>
+        </form>
+        <div id="guestList"></div>
+      </div>
+      <div>
+        <h1>Random Number Generator</h1>
+        <table>
+          <tr>
+            <th class="random_num_cell">
+              <label class="dicenumber" id="dice1">0</label>
+            </th>
+            <th class="random_num_cell">
+              <label class="dicenumber" id="dice2">0</label>
+            </th>
+            <th class="random_num_cell">
+              <label class="dicenumber" id="dice3">0</label>
+            </th>
+          </tr>
+        </table>
+        <div id="dicebuttoncontainer">
+          <button id="rollit">roll</button>
+        </div>
+      </div>
+
+      <div id="main">
+        <h1>TIC TAC TOE</h1>
+        <p id="ins">
+          Tap on a box to play.<br /><br />
+          <b>Player X</b> starts first, followed by <b>Player O</b>.
+        </p>
+        <div id="board" class="board"></div>
+        <br />
+        <button id="reset" class="reset">RESET</button>
+        <p id="message" class="message"></p>
+      </div>
+
+      <h1>Counter Program</h1>
+      <label id="countnumber">0</label>
+
+      <br />
+      <div id="buttoncontainer">
+        <button id="higherit" class="counterbuttons">increase</button>
+        <button id="lowerit" class="counterbuttons">decrease</button>
+        <button id="resetbtn" class="counterbuttons">reset</button>
+      </div>
+
+      <div>
+        <h1>Candlewick Jackson's Corner</h1>
+        <table>
+          <tr>
+            <th>
+              <img id="Candlewick_Poster" src="/Pictures/Zalgo.png" alt="" />
+            </th>
+            <th>
+              <p>
+                Mr. Jackson is the founder and leader of a religious (cult?)
+                organization. Trained under the watchful eye of the enlightened
+                one, he is known for being a man of knowledge for every question
+                that he has in mind. In this corner of the web, you can send him
+                a message and he will answer. Please give him a yes or no
+                question. Most certainly, his answer is always right.
+              </p>
+              <br />
+              <label for="Question_for_Candlewick"
+                >Write your Question here:</label
+              >
+              <input id="Question_for_Candlewick" type="text" />
+              <button id="Candlewick_button">SEND</button>
+              <p id="Candlewick's answer">hmm...</p>
+            </th>
+          </tr>
+        </table>
+      </div>
+
+      <div>
+        <table>
+          <tr>
+            <th>
+              <h1>Rock, Paper, Scissors</h1>
+              <p>
+                Instructions: Battle against the little brat on the right.
+                Choose between three options: Rock, Paper, and Scissors. Rock
+                beats Scissors, Scissors beats Paper, and Paper beats Rock.
+                First to win 3 rounds wins.
+              </p>
+              <label for="Rock">Rock</label>
+              <input id="Rock" type="radio" name="RPS" />
+              <label for="Paper">Paper</label>
+              <input id="Paper" type="radio" name="RPS" />
+              <label for="Scissors">Scissors</label>
+              <input id="Scissors" type="radio" name="RPS" />
+              <br />
+              <button id="RPS Button">FIGHT!</button>
+              <p id="Your Points">Your Points:</p>
+              <p id="Dewey's Points">Dewey's Points:</p>
+            </th>
+            <th>
+              <img
+                src="https://yt3.ggpht.com/331AwtVExxlCydMsTtgpSmbe3zZqM0SJg-a-xOuiIbKBZ4RU3GWjSMuIKLIDpRc0APsIzGqeRJe6"
+                alt=""
+              />
+              <p id="Dewey's Choice">I choose...</p>
+              <p id="Dewey's Comment"></p>
+            </th>
+          </tr>
+        </table>
+        <p id="RPS Results"></p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,408 @@
+@font-face {
+    font-family: AdamWarrenPro;
+    src: url(Pictures/adamwarrenpro.ttf);
+}
+body {
+  position: relative;
+  object-position: center;
+    width: 1280px;
+    margin-left: 200px;
+    margin-right: 0px;
+   background-image: url(/Pictures/gift\ shop\ background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+        
+}
+
+#row {
+
+    height: 50%
+}
+
+#webpage_button_section {
+    background-color: rgba(255, 255, 255, 0.488);
+}
+
+.logo {
+    width: 50%;
+}
+
+.webpage_buttons {
+    width: 315px;
+    height: 1%;
+    background-color: rgb(255, 255, 255);
+  }
+
+.button_images {
+    height: 100%;
+    width: 100%;
+  }
+
+#featured_animation_section2 {
+    background-image: url(Pictures/cardboard.jpg);
+
+    width: 900px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+#about_me_space {
+    width: 580px;
+    background-color: white;
+}
+
+#morgan {
+    width: 75%;
+}
+
+#about_me_text {
+    margin-top: 0px;
+    margin-bottom: 0%;
+    color: aliceblue;
+    font-family: AdamWarrenPro;
+    font-size: rem;
+    text-align: center;
+}
+
+#about_me_header {
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    text-align: center;
+    margin-top: 0px;
+    font-family: AdamWarrenPro;
+    margin-bottom: 0%;
+}
+
+#about_me_frame{
+    background-color: black;
+}
+
+#featured_art_section{
+    background-image: url(/Pictures/paper\ texture\ background.jpg);
+    background-size: cover;
+    width: 800px;
+    height: 90px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.art_spacing{
+    color: black;
+    width: 400px;
+}
+
+.art_images{
+    height: 100%;
+    width: 100%;
+}
+
+#art_table {
+    background-color: rgb(142, 0, 0);
+}
+
+#featured_music_section {
+    background-image: url(Pictures/cardboard.jpg);
+    position: static;
+    background-size: cover;
+    height: 1000px;
+    width: 90px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+.music_titles{
+    font-family: AdamWarrenPro;
+}
+
+#featured_blog_section {
+  height: 650px;
+  width: 600px;
+     background-image:url(/Pictures/paper\ texture\ background.jpg);
+}
+
+#blog_post_header {
+    text-align: center;
+    font-family: AdamWarrenPro;
+}
+
+#blog_date {
+    background-color: rgb(198, 50, 159);
+    font-family: AdamWarrenPro;
+    color: aliceblue ;
+}
+
+#featured_blog_post {
+    background-color: rgb(255, 255, 255);
+    font-family: AdamWarrenPro;
+}
+
+#livestream_section {
+    background-image: url(Pictures/cardboard.jpg);
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.social_Media_webpage_buttons {
+        width: 10%;
+      
+
+
+}
+#social_media_section {
+    background-image: url(Pictures/paper\ texture\ background.jpg);
+    
+}
+
+
+.music_cell {
+    background-image: url(/Pictures/243.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#Candlewick_Poster{
+    width: 100%;
+  }
+
+#Javascript_div{
+    background-image: url(/Pictures/blog\ background.png);
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+#likes_dislikes_table{
+width: 100%;
+
+}
+
+#likes_dislikes_section{
+   background-image: url("/Pictures/paper\ texture\ background.jpg");
+   background-position: center;
+   border-width: 10px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.likes_dislikes_pictures{
+    width:200px;
+}
+
+#likes_section{
+    background-color: rgba(142, 250, 149, 0.518);
+}
+
+#dislikes_section{
+    background-color: rgba(165, 42, 42, 0.525);
+}
+.candlewick_text{
+    color: aliceblue;
+}
+
+#donut_ride{
+    width: 78.5rem;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+#frontpage_headers{
+    font-family: AdamWarrenPro;
+    font-size: rem;
+    text-align: center;
+}
+
+
+/* music Player Stuff*/
+
+    /* Using flex with the column direction to
+   align items in a vertical direction */
+    .player {
+      height: 95px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .details {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 25px;
+    }
+
+    .track-art {
+      margin: 25px;
+      height: 450px;
+      width: 450px;
+      /*background-image: URL("Pictures/243.png")*/;
+      background-size: cover;
+      /*background-position: center;*/
+      border-radius: 15%;
+    }
+
+    /* Changing the font sizes to suitable ones */
+    .now-playing {
+      font-size: 1rem;
+      font-family: AdamWarrenPro;
+    }
+
+    .track-name {
+      font-size: 3rem;
+      font-family: AdamWarrenPro;
+    }
+
+    .track-artist {
+      font-size: 1.5rem;
+      font-family: AdamWarrenPro;
+    }
+
+    /* Using flex with the row direction to
+   align items in a horizontal direction */
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .playpause-track,
+    .prev-track,
+    .next-track {
+      padding: 25px;
+      opacity: 0.8;
+
+      /* Smoothly transition the opacity */
+      transition: opacity 0.2s;
+    }
+
+    /* Change the opacity when mouse is hovered */
+    .playpause-track:hover,
+    .prev-track:hover,
+    .next-track:hover {
+      opacity: 1;
+    }
+
+    /* Define the slider width so that it scales properly */
+    .slider_container {
+      width: 75%;
+      max-width: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Modify the appearance of the slider */
+    .seek_slider,
+    .volume_slider {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      height: 5px;
+      background: black;
+      opacity: 0.7;
+      -webkit-transition: 0.2s;
+      transition: opacity 0.2s;
+    }
+
+    /* Modify the appearance of the slider thumb */
+    .seek_slider::-webkit-slider-thumb,
+    .volume_slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 15px;
+      height: 15px;
+      background: white;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    /* Change the opacity when mouse is hovered */
+    .seek_slider:hover,
+    .volume_slider:hover {
+      opacity: 1;
+    }
+
+    .seek_slider {
+      width: 60%;
+    }
+
+    .volume_slider {
+      width: 30%;
+    }
+
+    .current-time,
+    .total-duration {
+      font-family: AdamWarrenPro;
+      padding: 10px;
+    }
+
+    i.fa-volume-down,
+     i.fa-volume-down:hover,
+    i.fa-volume-up,
+    i.fa-volume-up:hover{
+      cursor: pointer;
+      padding: 10px;
+    }
+
+    /* Change the mouse cursor to a pointer
+   when hovered over */
+
+    .fa-play-circle{
+      background-image: url(Pictures/play\ btn.png);
+      height: 100px;
+      width: 100px;
+      cursor: pointer
+     }
+     .fa-pause-circle{
+      background-image: url(Pictures/pause\ btn.png);
+       height: 100px;
+      width: 100px;
+      cursor: pointer
+     }
+
+     .fa-step-forward{
+      background-image: url(Pictures/fast\ forward\ btn.png);
+      height: 60px;
+      width: 60px;
+      cursor: pointer;
+     }
+
+     .fa-step-backward{
+      background-image: url(Pictures/fast\ backward\ btn.png);
+      height: 60px;
+      width: 60px;
+      cursor: pointer;
+     }
+
+     #music_player_bottom_space{
+      height: 100px;
+      width: 100px;
+      background-color: black;
+     }
+
+     #chattable{
+      width: 350px;
+      height: 600px;
+      background-image: url(Pictures/pad\ paper.jpg);
+     }
+
+     #GuestBook_Section{
+      background-image: url(Pictures/cardboard.jpg);
+     }
+    
+     /*to make image float, make sure body's position is set to relative; have its only ancestor be the body*/
+     #between_image{
+      position: absolute;
+      float: none;
+     }

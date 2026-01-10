@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art</title>
+    <link rel="stylesheet" href="style2.css" />
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th id="row">
+          <a href="index.html">
+            <img class="logo" src="/Pictures/thevanillalog3.png" alt="" />
+          </a>
+        </th>
+      </tr>
+      <tr>
+        <th id="webpage_button_section">
+          <div id="links">
+            <a href="/new_art.html"
+              ><button class="webpage_buttons">
+                <img
+                  class="button_images"
+                  src="/Pictures/art.png"
+                  alt=""
+                /></button
+            ></a>
+            <a href="/music.html"
+              ><button class="webpage_buttons">
+                <img
+                  class="button_images"
+                  src="/Pictures/music.png"
+                  alt=""
+                /></button
+            ></a>
+            <a href="/blog.html"
+              ><button class="webpage_buttons">
+                <img
+                  class="button_images"
+                  src="/Pictures/blog.png"
+                  alt=""
+                /></button
+            ></a>
+            <a href="/socials.html"
+              ><button class="webpage_buttons">
+                <img
+                  class="button_images"
+                  src="/Pictures/coding.png"
+                  alt=""
+                /></button
+            ></a>
+          </div>
+        </th>
+      </tr>
+    </table>
+    <div id="overlay_background">
+
+    </div>
+    <div id="Art_Page">
+        <div id="slideshow">
+          <h1 id="frontpage_headers"><mark>Animations</mark></h1>
+          <table id="Art_Pictures_slideshow">
+            <tr>
+              <th>
+                 <iframe
+                 id="Animation_Videos_slideshow"
+              width="880"
+              height="508"
+              src="https://www.youtube.com/embed/wW8wHlN1UDQ"
+              title="Fighting Actor - A Wrestling Animated Short"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+          ></iframe>
+              </th>
+            </tr>
+          </table>
+          <button onclick="animationSlideLeft()" id="left_button"><</button>
+      <button onclick="animationSlideRight()" id="right_button">></button>
+      <h1 id="frontpage_headers"><mark>Art Stuff</mark></h1>
+      <div>
+        <table id="Art_Pictures_slideshow">
+          <tr>
+            <th id="Art_Pictures">
+              <img
+          src=https://yt3.ggpht.com/SgTxw57WEqpNCjymqoo6_mIov7G3uufO4iIhiExUzzEJfprMKxdRL-YXzbklHucP-xSGuie3P-l6
+          alt=""
+          id="generated_image"
+          onclick="showModal(0)"
+        />
+            </th>
+          </tr>
+        </table>
+      </div>
+      <button onclick="slideLeft()" id="left_button"><</button>
+      <button onclick="slideRight()" id="right_button">></button>
+    </div>
+        <!--To use youtube images, delete right part of link up until the equal sign to make it full screen-->
+        <div id="full_image"></div>
+        <table id="art_table">
+          <tr>
+            <th class="art_column_spacing">
+              <img
+                class="art_column_images"
+                src=https://yt3.ggpht.com/SgTxw57WEqpNCjymqoo6_mIov7G3uufO4iIhiExUzzEJfprMKxdRL-YXzbklHucP-xSGuie3P-l6
+                alt=""
+                onclick='getIndex(this.src)'
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                class="art_column_images"
+                src="https://yt3.ggpht.com/5NkET6M_bpNHw5J9leh96m5Ao8XxmP_0MlOT37YMss_DJM5YgIk1iYnLF2OBx7kOAwYDxzCm1ZGIOMw"
+                alt=""
+                onclick='getIndex(this.src)'
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                class="art_column_images"
+                src="https://yt3.ggpht.com/N3FqR8KWWEqz6Tf30QJBnfIRCAI7N1FCsXJxfmx6vVPNDA6WGMXEOfd1tZSv7uZbXwzQKCvAP2g2"
+                alt=""
+                onclick='getIndex(this.src)'
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                class="art_column_images"
+                src="https://yt3.ggpht.com/ezFEfPFmZkyoG1FjfFaxJvH1IGacRuKn8mibBSZf1KKT2ThhaSGKtSKMHeANQn0RxuowGYGA3RjuQg"
+                alt=""
+                onclick='getIndex(this.src)'
+              /></button>
+            </th>
+          </tr>
+          <tr>
+            <th class="art_column_spacing">
+              <img
+                class="art_column_images"
+                src="https://yt3.ggpht.com/92fBDoCcUneam4U7X_2-TxCE7uEiCz2ZsG9GDyeancXxUap5uWM2ouGG7-tMSoqFVBpYoNhMW_2c"
+                alt=""
+                onclick='getIndex("https://yt3.ggpht.com/92fBDoCcUneam4U7X_2-TxCE7uEiCz2ZsG9GDyeancXxUap5uWM2ouGG7-tMSoqFVBpYoNhMW_2c")'
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                 onclick='getIndex("https://yt3.ggpht.com/t1Z08TJfnzdltGazOcJ1I1JTUr52Ja2HF_lvoFk4q1-VWZvGtFsdHslQ00DhRfuJWJMP7AXSb6M8")'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/t1Z08TJfnzdltGazOcJ1I1JTUr52Ja2HF_lvoFk4q1-VWZvGtFsdHslQ00DhRfuJWJMP7AXSb6M8"
+                alt=""
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex("https://yt3.ggpht.com/Iq5tSv1OsvZykxjmJEOPf7kSSw6am0MN2QLOKk1aHMdm04mgWra60vJn0cTtxtHSOjxfg7hCkJcZgg")'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/Iq5tSv1OsvZykxjmJEOPf7kSSw6am0MN2QLOKk1aHMdm04mgWra60vJn0cTtxtHSOjxfg7hCkJcZgg"
+                alt=""
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex("https://yt3.ggpht.com/pKDi0bO5ZKmJIE9q6qWUDjKuD1PWTK2T6_-sgBKhIqZZrlvvkl9tAULA7cB39Qq5BbghNrzm2dCOww")'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/pKDi0bO5ZKmJIE9q6qWUDjKuD1PWTK2T6_-sgBKhIqZZrlvvkl9tAULA7cB39Qq5BbghNrzm2dCOww"
+                alt=""
+              /></button>
+            </th>
+          </tr>
+          <tr>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex("https://yt3.ggpht.com/N8SyQt614Jgrd3s8cRYxBoAimfrpM0p6j3kMg9OoCEgODNbOldXe5ZptQdJ1-wBqNjIScMODwXhK4A")'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/N8SyQt614Jgrd3s8cRYxBoAimfrpM0p6j3kMg9OoCEgODNbOldXe5ZptQdJ1-wBqNjIScMODwXhK4A"
+                alt=""
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex("https://yt3.ggpht.com/yvPAXxee5gN-SiXDV5iisX-9jYuthlX3QFJ6y5HxIDN9KcAgcqzLwHo13vc6z9TYkTPmRsVlUcVzTt0")'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/yvPAXxee5gN-SiXDV5iisX-9jYuthlX3QFJ6y5HxIDN9KcAgcqzLwHo13vc6z9TYkTPmRsVlUcVzTt0"
+                alt=""
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex("https://yt3.ggpht.com/4V4zIlppGkbzvP102bccxXSi6KbP5TxAaWAbR0BYpqHewpzJgAyQjdwMJtnEMkmT54hIuhsryd9xcQ")'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/4V4zIlppGkbzvP102bccxXSi6KbP5TxAaWAbR0BYpqHewpzJgAyQjdwMJtnEMkmT54hIuhsryd9xcQ"
+                alt=""
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/NzeP8zKaYvlj_uvQqLNRYb_3a-PDfUHiuSSsuIOTH6i53t9C0ZQE203Xovjp-0Jv9Z1u3I82eiQP"
+                alt=""
+              /></button>
+            </th>
+          </tr>
+          <tr>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/QJHHrZXlZyfXl6SJkfOTlWizRwZA8g8_znzihQYQXQn9txBsraZYztjafbS68mnEQpyQsM23UCee5g"
+                alt=""
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/RLX8xrGpOLPkgFxjFuRR73thklHVYyrghQmr0vtwC4ebAE37Js1ZhOhA1eLxK3W7VygNelNn-kuLLQ"
+                alt=""
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/ixCTQiCdw4krEUFQsDEx9pCCIlt9LzNZXt0KsqP2RK5w4TbpWbfCq8lpAyQk3dsksFs3PDw0y6mXAQ"
+                alt=""
+              /></button>
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/_QwMGtpraTf_Zn8nD80KQ7r-V2E-IUEeyLc27hzOC3plG4feol0WpvK5tbs7BSt60a3b0Drzx_XU"
+                alt=""
+              /></button>
+            </th>
+          </tr>
+          <tr>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/5qPQOxKyeCbM6rrJBP8o_NkDswqjXC8RzVjL__0wnx5jBtC57iVMfQgIF13jmRbOEf7RLR3Z-b8kxkE=s1600-rw-nd-v1"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/5dg8vOdvLGKFa2HZg8Mw-vu7vjvX9z7OsuwQMTDs7iiiGV9hUWDFAx6p723U1CanyhXx_peuSqjmOg"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/iANoKkNLK77qRNL_vZGnkLhhUIEKf_roZcKKJjtyaUgjHmRk_lYeIimlTSe25Ze4t3VdEsq2ttLrBQ"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/FMk5umuWE1Ns0mfEbNjMSAriW5KKS3an4vIy7Cuoe6VeM-EMlcviwonE3h_AXlqlFocUJSSdQWlslg=s1600-rw-nd-v1"
+                alt=""
+              />
+            </th>
+          </tr>
+          <tr>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/-sDaT2XXldQ6rzYK9KWR4lCTdtj10G-s-oylS37SN2zazfEwJxoC422yuh0z9907n081-Rr06kCNEA=s1600-rw-nd-v1"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/GnKuBPAULPQETVmfvU7AhYNxCNXH4iBu5AJhCHQ3RrH4B8muQNfjHXkimkvkaD6meIdO5oqUIHnRJw"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/VT_DBcYkLmeZFmwfPT3y1GBpQfkAzivQs6NyoHqC2AveBE-gIcGxLmGHtrEEht-wiMuTWqAog374tA"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/XG42GXrvFhwH4rZfW-25g5jyRkoVzIANTuo8YtwSAUy_QK8fA-0moGCL7ObCNFqNnU77KeoyBK3Q"
+                alt=""
+              />
+            </th>
+          </tr>
+          <tr>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://art.ngfiles.com/medium_views/5704000/5704261_791832_thevanillalog_untitled-5704261.8ee5c9483a035fd2760554c2e161d8ea.webp?f1715904316"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/fjs4zdrrIlZgQXSlLFU7uOHS-pEpbnpaVkaH3OU56ixkg0mMIaeMJ9C3ZOv6Ohky16q5veg7eY1M"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/331AwtVExxlCydMsTtgpSmbe3zZqM0SJg-a-xOuiIbKBZ4RU3GWjSMuIKLIDpRc0APsIzGqeRJe6"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/Uhzwe04oWcmXMEw3945xCYrz2ZUX0-Kzd9E0HjqrtVoOrLT2Q2kGFRN85N4m4WCbN6kcBHpKXFL5rg"
+                alt=""
+              />
+              
+            </th>
+          </tr>
+          <tr>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/EyGJ0BgOs30pgEe1Df2GNw2LGx7VgOiNx1_U7SMnRi-aI9LwY0QnUFS6AJtHg2SpYAHC22v4h5e3yQ"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/MKqzCAjYm6sHqi2HXxBt3v_GQgAKQyTejYoBtyHcueZE5rqqycS7wJMuWvEEmGRuloj1Aj_g297-"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/opzFIzBkF_SbEvrPp85z2YE20eAK3zKehvdsgvtZG-O46cHH3AHBtCooqz-HSRNJ6-qCY8t-QjYV"
+                alt=""
+              />
+            </th>
+            <th class="art_column_spacing">
+              <img
+                onclick='getIndex(this.src)'
+                class="art_column_images"
+                src="https://yt3.ggpht.com/xVe_sLCoXelDddycPdDQ4A96u1JINLd6daNmNmYNEgicpISqmlE58VVpg4l_K7F-PshaIFqu3Cv4eQ"
+                alt=""
+              />
+              
+            </th>
+          </tr>
+        </table>
+        <img src="https://www.webtoons.com/en/canvas/feathers-and-snowflake/better-things/viewer?title_no=535356&episode_no=1" alt="">
+      </div>
+    </div>
+    <!-- Modal for full-screen images -->
+<div id="imageModal" class="modal">
+<span class="close">&times;</span> <!-- Close button -->
+<img class="modal-content" id="modalImage">
+<span class="prev">&#10094;</span> <!-- Left arrow -->
+<span class="next">&#10095;</span> <!-- Right arrow -->
+</div>
+    <script src="/slideshow.js"></script>
+  </body>
+</html>

@@ -1,0 +1,434 @@
+body {
+ background-image: url(/Pictures/gift\ shop\ background.png);
+  max-width: 1280px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+      
+}
+
+      .logo {
+        height: 50%;
+        width: 50%;
+      }
+
+      #news {
+        background-image: url(/Pictures/pad\ paper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 33%;
+        height: 100%;
+      }
+
+      #links {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+      }
+      .frame {
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 1000px;
+        height: 100%;
+      }
+      #morgan {
+        margin-top: 0%;
+        width: 75%;
+        margin-left: 13%;
+        margin-right: 13%;
+        margin-bottom: 0%;
+      }
+
+      .webpage_buttons {
+        width: 244px;
+        height: 1%;
+        background-color: rgb(255, 255, 255);
+      }
+
+      .button_images {
+        height: 100%;
+        width: 100%;
+      }
+
+      #about_me_frame {
+        background-color: black;
+      }
+
+      #about_me_header {
+        color: rgb(255, 255, 255);
+        font-size: 300%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0%;
+      }
+      #about_me_text {
+        margin-top: 0px;
+        margin-bottom: 0%;
+        color: aliceblue;
+        font-family: sans-serif;
+        font-size: rem;
+        text-align: center;
+      }
+
+      #Featured_animation_header {
+        color: rgb(0, 0, 0);
+        margin-bottom: 0%;
+        text-align: center;
+        font-size: 50px;
+      }
+
+      #video {
+        height: 100%;
+        width: 100%;
+        margin-top: 0%;
+        background-color: black;
+      }
+
+      #featured_animation_section {
+        background-image: url(/Pictures/pad\ paper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+      }
+
+      
+
+      #frame2 {
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 1000px;
+        height: 1400px;
+      }
+
+      #featured_music_section {
+        background-image: url(/Pictures/pad\ paper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 390px;
+        height: 270px;
+        position: absolute;
+
+        top: 720px;
+      }
+
+      #featured_art_section {
+        background-image: url(/Pictures/pad\ paper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 600px;
+        height: 700px;
+        background-color: rgb(255, 255, 255);
+        margin-left: auto;
+        position: absolute;
+
+        left: 720px;
+        top: 710px;
+      }
+
+      #music_and_art_row {
+        background-color: black;
+      }
+
+      .art_images {
+        height: 100%;
+        width: 100%;
+      }
+
+      .art_spacing {
+        color: black;
+        width: 200px;
+      }
+
+      #featured_blog_section {
+        background-image: url(/Pictures/pad\ paper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 680px;
+        width: 390px;
+        position: absolute;
+
+        top: 1000px;
+      }
+
+      .art_table {
+        background-color: rgb(142, 0, 0);
+      }
+
+      #music_table {
+        background-color: rgb(121, 246, 156);
+      }
+
+      #blog_post_header {
+        text-align: center;
+      }
+
+      #blog_date {
+        background-color: rgb(155, 155, 197);
+        font-family: sans-serif;
+      }
+
+      #featured_blog_post {
+        background-color: rgb(155, 155, 197);
+        font-family: sans-serif;
+      }
+
+      #social_media_section {
+        background-image: url(/Pictures/pad\ paper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+        width: 600px;
+        height: 120px;
+        position: absolute;
+        top: 1560px;
+        left: 720px;
+      }
+
+      .social_Media_webpage_buttons {
+        float: right;
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+
+      .social_media_header {
+        float: left;
+      }
+
+      #bottom_space {
+        height: 200px;
+        width: 300px;
+      }
+
+      #Art_Page {
+        background-image: url(/Pictures/pad\ paper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 1280;
+        margin: auto;
+      }
+
+      .art_column_spacing {
+        width: 250px;
+      }
+
+      .art_column_images {
+        height: 100%;
+        width: 100%;
+      }
+
+      #livestream_section {
+        background-image: url(/Pictures/pad\ paper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1000px;
+        height: 600px;
+        position: absolute;
+
+        top: 1700px;
+      }
+
+      #livestream {
+        position: absolute;
+        left: 100px;
+        top: 100px;
+      }
+
+      .blog_pictures {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;      
+      }
+
+      .album_centered,
+      iframe {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .form-input input {
+        width: 80%;
+        height: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      }
+
+      .container {
+        width: 950px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+
+    .guest-card {
+      width: 100%;
+      border: 1px solid #ccc;
+      padding: 5px;
+      margin: 5px 0;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .guest-card h2 {
+      margin: 0;
+  }
+
+.random_num_cell {
+ width: 950px;
+ background-color: aquamarine;
+}
+.dicenumber {
+  font-size: 10rem;
+  text-align: center;
+}
+
+#dice1 {
+  text-align: left;
+}
+
+#dice2 {
+  text-align: center;
+}
+
+#dice3 {
+  display: block;
+  margin-right: auto;
+}
+
+#rollit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 100px;
+  font-size: large;
+}
+
+
+/*Tic Tac Toe Minigame*/
+
+#main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell.taken {
+    pointer-events: none;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    border-radius: 8px;
+}
+
+#countlabel{
+  width: 950px;
+}
+
+#countnumber {
+  display: block;
+  text-align: center;
+  font-size: 400px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.counterbuttons {
+  width: 100px;
+  height: 50px;
+}
+
+#buttoncontainer{
+  display: block;
+  text-align: center;
+}
+
+#Candlewick_Poster{
+  width: 100%;
+}
+
+#media_review_Button{
+  width: 400px;
+  height: 1%;
+  background-color: rgb(255, 255, 255);
+}
+
+#media_note{
+width: 400px;
+}
+
+.review_pictures{
+  width: 100%;
+
+}
+
+#review{
+  font-family: sans-serif;
+}
+
+
+
+#media_cell{
+width: 800px;
+}
+
+#media_cell2{
+  background-color: rgb(216, 114, 5);
+  width: 780px;
+  vertical-align: text-top;
+  font-family: sans-serif;
+  }
+
+

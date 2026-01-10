@@ -1,0 +1,381 @@
+@font-face {
+    font-family: AdamWarrenPro;
+    src: url(Pictures/adamwarrenpro.ttf);
+}
+body {
+    width: 1280px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   background-image: url(/Pictures/gift\ shop\ background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+        
+}
+
+#row {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%
+}
+
+.logo {
+    width: 50%;
+}
+
+.webpage_buttons {
+    width: 315px;
+    height: 1%;
+    background-color: rgb(255, 255, 255);
+  }
+
+.button_images {
+    height: 100%;
+    width: 100%;
+  }
+
+  #webpage_button_section {
+    background-color: rgba(255, 255, 255, 0.488);
+}
+
+#Art_Page {
+    background-image: url("/Pictures/paper\ texture\ background.jpg");
+    background-position: center;
+    max-width: 1280;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+  }
+
+  .art_column_spacing {
+    width: 250px;
+  }
+
+  .art_column_images {
+    height: 100%;
+    width: 100%;
+  }
+
+   .art_column_images:hover {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  #art_table {
+    width: 100%;
+  }
+  .blog_date {
+    background-color: rgba(255, 255, 255, 0.808);
+    font-family: AdamWarrenPro;
+    color: #000000;
+  }
+  .album_centered,
+      iframe {
+        display: block;
+        margin: 0 auto;
+      }
+.blog_pictures {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;      
+      }
+      #media_note{
+        width: 400px;
+        }
+        #links {
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-color: #cccccc6b;
+          }
+/*javascript stuff*/
+        .form-input input {
+            width: 80%;
+            height: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+          }
+    
+          .container {
+            max-width: 1280px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+    
+        .guest-card {
+          width: 100%;
+          border: 1px solid #ccc;
+          padding: 5px;
+          margin: 5px 0;
+          background-color: #fff;
+          border-radius: 5px;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      }
+      .guest-card h2 {
+          margin: 0;
+      }
+    
+    .random_num_cell {
+     width: 950px;
+     background-color: aquamarine;
+    }
+    .dicenumber {
+      font-size: 10rem;
+      text-align: center;
+    }
+    
+    #dice1 {
+      text-align: left;
+    }
+    
+    #dice2 {
+      text-align: center;
+    }
+    
+    #dice3 {
+      display: block;
+      margin-right: auto;
+    }
+    
+    #rollit {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 150px;
+      height: 100px;
+      font-size: large;
+    }
+    
+    
+    /*Tic Tac Toe Minigame*/
+    
+    #main {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+    
+    .board {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-gap: 5px;
+        margin-top: 20px;
+    }
+    
+    .cell {
+        width: 100px;
+        height: 100px;
+        border: 1px solid gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .cell.taken {
+        pointer-events: none;
+    }
+    
+    .message {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .reset {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: whitesmoke;
+        border: 1px solid dodgerblue;
+        color: dodgerblue;
+        border-radius: 8px;
+    }
+    
+    #countlabel{
+      width: 950px;
+    }
+    
+    #countnumber {
+      display: block;
+      text-align: center;
+      font-size: 400px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .counterbuttons {
+      width: 100px;
+      height: 50px;
+    }
+    
+    #buttoncontainer{
+      display: block;
+      text-align: center;
+    }
+    
+    #Candlewick_Poster{
+      width: 100%;
+    }
+    
+    #media_review_Button{
+      width: 400px;
+      height: 1%;
+      background-color: rgb(255, 255, 255);
+    }
+    
+    #media_note{
+    width: 400px;
+    }
+    
+    .review_pictures{
+      width: 100%;
+    
+    }
+    
+    #review{
+      font-family: sans-serif;
+    }
+    
+    
+    
+    #media_cell{
+    width: 800px;
+    }
+    
+    #media_cell2{
+      background-color: rgb(216, 114, 5);
+      width: 780px;
+      vertical-align: text-top;
+      font-family: sans-serif;
+      }
+/*Image Slideshow IDs*/
+#slideshow{
+  width: 1280px;
+  align-items: center;
+  align-content: center;
+}
+#left_button{
+    margin-right: 5%;
+    font-size: 5em;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#right_button{
+  text-align: right;
+    margin-left: 60%;
+    font-size: 5em;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#generated_image{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    align-content: center;
+    size: 100%;
+    height: 30em;
+}
+
+#Art_Pictures_slideshow{
+  background-image: url(Pictures/cardboard.jpg);
+  width: 80rem;
+
+}
+
+#overlay_background{
+  background-color: #000000;
+  height: 10vh;
+  float: left;
+}
+
+
+/*For the image pop up in new_art.html*/
+/* Style for modal popup */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+z-index: 1;
+padding-top: 50px;
+}
+
+/* Style for modal content (image) */
+.modal-content {
+display: block;
+max-width: 90%;
+max-height: 90%;
+margin: auto;
+}
+
+/* Close button */
+.close {
+position: absolute;
+top: 20px;
+right: 35px;
+color: white;
+font-size: 40px;
+cursor: pointer;
+}
+
+/* Navigation buttons */
+.prev, .next {
+position: absolute;
+top: 50%;
+color: white;
+font-size: 40px;
+padding: 10px;
+cursor: pointer;
+user-select: none;
+}
+
+.prev {
+left: 20px;
+}
+
+.next {
+right: 20px;
+}
+
+/* Style for image thumbnails */
+.popup-image {
+width: 300px;
+cursor: pointer;
+margin: 10px;
+}
+
+#modalImage{
+  size: 100%;
+  height: 90em;
+}
+
+/*pop up image end */
+
+#frontpage_headers{
+    font-family: AdamWarrenPro;
+    font-size: rem;
+    text-align: center;
+}
